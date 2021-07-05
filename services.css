@@ -1,0 +1,39 @@
+footer {
+  padding: 20px;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+}
+
+.flexy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#flexy {
+  padding: 20px;
+  margin: 0px;
+}
+
+.card {
+  background-color: #8e44ad;
+  padding: 1pc;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .flexy {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=services.css.map */

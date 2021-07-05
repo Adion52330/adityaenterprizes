@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <noscript>
+      <center>
+        <h1>| Please turn on Javascript to get the best experience |</h1>
+      </center>
+    </noscript>
+
+    <link rel="shortcut icon" href="assets/loggy.png" type="image/x-icon" />
+
+    <title>Aditya Enterprises | Home</title>
+  </head>
+
+  <body onload="gon()">
+    <div id="loading"></div>
+    <header>
+      <nav class="navbar navbar-dark bg-dark" style="height: 40px !important">
+        <div
+          class="container"
+          style="
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            color: white;
+            padding-top: 1px;
+          "
+        >
+          <img
+            src="assets/loggy.png"
+            width="50"
+            alt=""
+            style="padding: 5px"
+            class="nono"
+          />
+          <p id="p1"></p>
+          <p id="p2" style="padding-left: 20px"></p>
+          <img
+            src="assets/loggy.png"
+            width="50"
+            alt=""
+            style="padding: 5px"
+            class="nono"
+          />
+        </div>
+      </nav>
+      <nav>
+        <h1 style="text-align: center" id="h1">
+          <strong>Welcome To Aditya Enterprises</strong>
+        </h1>
+        <marquee
+          scrollamount="7"
+          style="
+            background-image: linear-gradient(
+              to right,
+              #fa709a 0%,
+              #fee140 100%
+            );
+            margin: 0 14px;
+          "
+          >❗ Best Indian Finger Rolls and noodles you've ever eaten ❕</marquee
+        >
+      </nav>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark"
+        id="navbar"
+        style="z-index: 99999999"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/n2.png" alt="" width="62" height="45" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-warning"
+                  style="font-weight: bolder"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  style="font-weight: bolder"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="services.html"
+                  style="font-weight: bolder"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="contact.html"
+                  style="font-weight: bolder"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a href="contact.html" class="btn btn-outline-warning"
+                >Contact Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main
+      style="
+        background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+        padding: 20px;
+        margin-top: 2px;
+      "
+    >
+      <center>
+        <img
+          src="assets/n2.png"
+          alt=""
+          style="
+            z-index: 9999px;
+            box-shadow: 2px 1px 6px;
+            border-radius: 900px;
+            padding: 20px;
+          "
+        />
+      </center>
+      <center>
+        <h2 id="kk">| Eat healthy, Be healthy |</h2>
+      </center>
+      <center>
+        <h5 class="text-light">
+          Need delicious, and crispy snacks? No Problem! We make the best snack
+          which is tottally healthy!
+        </h5>
+      </center>
+      <center>
+        <a href="services.html" class="btn btn-dark" style="margin: 20px 7px"
+          >Browse Services</a
+        >
+        <a href="about.html" class="btn btn-light" style="margin: 20px 7px"
+          >About Us</a
+        >
+        <a href="contact.html" class="btn btn-danger" style="margin: 20px 7px"
+          >Contact Us</a
+        >
+      </center>
+    </main>
+    <center>
+      <div
+        style="
+          padding: 5px;
+          width: 100%;
+          background-image: linear-gradient(
+            to right,
+            #fcc5e4 0%,
+            #fda34b 15%,
+            #ff7882 35%,
+            #c8699e 52%,
+            #7046aa 71%,
+            #0c1db8 87%,
+            #020f75 100%
+          );
+        "
+      >
+        “One cannot think well, love well, sleep well, if one has not dined
+        well.”
+      </div>
+    </center>
+    <section id="startup" style="background-color: whitesmoke; padding: 20px">
+      <div style="padding: 20px; background-color: lightgray">
+        <a
+          id="a1"
+          href="contact.html"
+          style="
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            margin: 10px;
+          "
+        >
+          <img
+            src="	https://www.globalreach.com/media/cms/ecommerce_00F706DC98D10.svg"
+            alt=""
+            style="background-color: rgb(5, 5, 119); border-radius: 200px"
+            width="150px"
+            height="150px"
+          />
+          <h5 style="align-self: center; padding: 10px">
+            Shop the best, at the best deals!
+          </h5>
+        </a>
+        <div
+          id="a1"
+          style="
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            margin: 10px;
+          "
+        >
+          <img
+            src="https://www.globalreach.com/media/cms/intranets_239C576436164.svg"
+            alt=""
+            style="background-color: rgb(5, 5, 119); border-radius: 200px"
+            width="150px"
+            height="150px"
+          />
+          <h5 style="align-self: center; padding: 10px">
+            We have the status of all our clients!
+          </h5>
+        </div>
+        <a
+          id="a1"
+          href="services.html"
+          style="
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            margin: 10px;
+          "
+        >
+          <img
+            src="https://www.globalreach.com/20160907154343/assets/images/seo-white.svg"
+            alt=""
+            style="background-color: rgb(5, 5, 119); border-radius: 200px"
+            width="150px"
+            height="150px"
+          />
+          <h5 style="align-self: center; padding: 10px">
+            Services everytime, everywhere!
+          </h5>
+        </a>
+        <div
+          id="a1"
+          style="
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            margin: 10px;
+          "
+        >
+          <img
+            src="	https://www.globalreach.com/20160907154343/assets/images/customdevs-white_1.svg"
+            alt=""
+            style="background-color: rgb(5, 5, 119); border-radius: 200px"
+            width="150px"
+            height="150px"
+          />
+          <h5 style="align-self: center; padding: 20px">
+            Safe machines, high yielding!
+          </h5>
+        </div>
+      </div>
+    </section>
+    <div id="fau"><a href="#faqs" id="faqbtn" class="text-light">FAQs</a></div>
+    <section id="faqs">
+      <div class="accordion accordion-flush" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Where is our factory?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Our factory is in Uttar Pradesh at Varanasi. For More go to our
+              about section.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              How much do we yield at a monthly basis?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              At a monthly basis we produce more than 100 Kg.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Can we replace items?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Well right now we have no option of replace. And there is no
+              question about replacing we are sure of our products.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>&copy; Copyright Aditya Enterprises | 2020</p>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    var preloader = document.getElementById("loading");
+
+    function gon() {
+      document.getElementById("loading").style.display = "none";
+    }
+    d = new Date();
+    a = d.getHours();
+    b = d.getMinutes();
+    c = d.getSeconds();
+    document.getElementById("p1").innerHTML =
+      "Time Entered: " + a + ":" + b + ":" + c;
+
+    const countEl = document.getElementById("p2");
+    updateVisitCount();
+
+    function updateVisitCount() {
+      fetch("https://api.countapi.xyz/update/aditya/factory/?amount=1")
+        .then((res) => res.json())
+        .then((res) => {
+          countEl.innerHTML = "Total Visits : " + res.value;
+        });
+    }
+  </script>
+  <script src="script.js"></script>
+</html>
